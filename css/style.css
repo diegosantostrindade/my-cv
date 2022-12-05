@@ -175,11 +175,6 @@ h5 {
     display: flex;
   }
 
-  .information-column-avatar img {
-    height: 200px;
-    width: 200px;
-  }
-
   .experiences {
     display: flex;
   }
