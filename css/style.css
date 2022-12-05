@@ -1,0 +1,194 @@
+/* Geral */
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Information Column */
+
+.information-column {
+  background-color: #000;
+  padding: 40px;
+}
+
+.information-column-avatar h1,
+h2,
+hr {
+  color: #fff;
+  text-align: center;
+}
+
+.information-column-avatar img {
+  height: 300px;
+  width: 300px;
+  margin-bottom: 18px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information-column-avatar h1 {
+  font-size: 32px;
+}
+
+.information-column-avatar h2 {
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.information-column-avatar hr {
+  border: none;
+  border-bottom: 1px solid #c2f219;
+  margin-top: 18px;
+}
+
+.information-column h3 {
+  margin-top: 20px;
+  text-align: left;
+  color: #fff;
+}
+
+.information-column li {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.information-column ul {
+  list-style-type: none;
+}
+
+.information-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.information-column-contact p {
+  display: inline;
+  color: #fff;
+}
+
+.information-column-contact i {
+  color: #c2f219;
+  margin-right: 10px;
+}
+
+.information-column-education h4,
+h5 {
+  color: #fff;
+}
+
+.information-column-education p {
+  text-decoration: none;
+  color: #c2f219;
+}
+
+.information-column-education h3 {
+  margin-top: 32px;
+}
+
+.information-column-language h3 {
+  margin-top: 32px;
+}
+
+.information-column-language .percent {
+  height: 6px;
+  width: 205px;
+  background-color: #93ba0c;
+  margin-top: 5px;
+}
+
+.information-column-language .percent div {
+  height: 6px;
+  width: 100%;
+  background-color: #c2f219;
+}
+
+.information-column-language p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.information-column-language .percent.spanish div {
+  height: 6px;
+  width: 85%;
+  background-color: #c2f219;
+}
+
+.information-column-language .percent.english div {
+  height: 6px;
+  width: 30%;
+  background-color: #c2f219;
+}
+
+/* Experience Column */
+.experiences-column {
+  background-color: #fff;
+  padding: 40px;
+  color: #000;
+}
+
+.experiences-column-about h2 {
+  color: #000;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.experiences-column-jobs h2 {
+  color: #000;
+  margin-top: 32px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.experiences-column-jobs div {
+  margin-bottom: 15px;
+}
+
+.date {
+  font-style: italic;
+}
+
+.experiences-column-project h2 {
+  color: #000;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.experiences-column-project a {
+  color: #797979;
+  font-weight: bold;
+}
+
+.experiences-column-project div {
+  margin-bottom: 15px;
+}
+
+.update {
+  font-size: 14px;
+  margin-top: 40px;
+  text-align: right;
+  font-weight: lighter;
+}
+
+@media (min-width: 992px) {
+  .container {
+    display: flex;
+  }
+
+  .information-column-avatar img {
+    height: 200px;
+    width: 200px;
+  }
+
+  .experiences {
+    display: flex;
+  }
+
+  .experiences-description {
+    width: 100%;
+  }
+  .experiences-date {
+    width: 100;
+    font-weight: lighter;
+  }
+}
